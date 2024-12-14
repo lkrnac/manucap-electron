@@ -148,8 +148,8 @@
     "webpack-merge": "^5.9.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "manucap-electron",
+    "appId": "net.lkrnac.ManucapElectron",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
@@ -195,8 +195,10 @@
     },
     "linux": {
       "target": [
-        "AppImage"
+        "AppImage",
+        "deb"
       ],
+      "arch": ["arm64", "x64"],
       "category": "Development"
     },
     "directories": {
