@@ -190,7 +190,8 @@
     "win": {
       "target": [
         "nsis"
-      ]
+      ],
+      "publisherName": "Lubos Krnac"
     },
     "linux": {
       "target": [
