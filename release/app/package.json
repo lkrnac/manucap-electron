@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "license": "MIT",
+  "author": {
+    "name": "Lubos Krnac",
+    "email": "lubos.krnac@gmail.com",
+    "url": "https://github.com/lkrnac"
+  },
   "main": "./dist/main/main.js",
   "scripts": {
     "rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
